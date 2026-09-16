@@ -35,13 +35,13 @@ export const projects: Project[] = [
   },
   {
     id: "ex-vaso",
-    name: "Texturas para decorar",
+    name: "Luz e formas para decorar",
     category: "Decoração",
     description:
-      "Exemplo ilustrativo de forma e textura em uma peça decorativa.",
-    image: "/images/hero-products.webp",
-    alt: "Mockup de vaso laranja com textura",
-    position: "vase",
+      "Referência demonstrativa de luminária com blocos geométricos.",
+    image: "/images/products/luminaria-cubo-demonstrativo.webp",
+    alt: "Luminária cubo geométrico iluminada",
+    position: "generated",
     example: true,
   },
   {

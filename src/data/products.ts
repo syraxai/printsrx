@@ -15,12 +15,6 @@ export type Product = {
   featured: boolean;
   whatsappMessage: string;
 };
-const mockup = (alt: string, position: string): ProductImage => ({
-  src: "/images/hero-products.webp",
-  alt,
-  illustrative: true,
-  position,
-});
 export const products: Product[] = [
   {
     id: "placa-pix",
@@ -52,12 +46,7 @@ export const products: Product[] = [
     category: "Personalizados",
     description:
       "Um pequeno presente com nome, texto ou logo para levar sua marca junto.",
-    images: [
-      mockup(
-        "Mockup ilustrativo de chaveiro laranja sem personalização",
-        "key",
-      ),
-    ],
+    images: [{"src": "/images/products/chaveiro-demonstrativo.webp", "alt": "Imagem demonstrativa: Chaveiro personalizado", "illustrative": true, "position": "generated"}],
     customizable: true,
     featured: true,
     whatsappMessage:
@@ -91,9 +80,8 @@ export const products: Product[] = [
     id: "display",
     name: "Display de preço",
     category: "Para empresas",
-    description:
-      "Destaque informações e preços dos seus produtos com um display sob medida.",
-    images: [{ src: "/images/products/display-illustrative.webp", alt: "Mockup ilustrativo: Display preto e laranja com cartão em branco", illustrative: true, position: "generated" }],
+    description: "Destaque os preços dos seus produtos. Os valores na imagem são exemplos, não o preço desta peça.",
+    images: [{"src": "/images/products/display-demonstrativo.webp", "alt": "Imagem demonstrativa: Display de preço", "illustrative": true, "position": "generated"}],
     customizable: true,
     featured: true,
     whatsappMessage:
@@ -148,4 +136,89 @@ export const products: Product[] = [
   },
 
   { id: "suporte-dobravel", name: "Suporte dobrável para celular", category: "Funcionais", description: "Um apoio compacto para o celular, com opção de chaveiro para levar com você.", images: [{ src: "/images/products/suporte-dobravel-catalogo.webp", alt: "Suportes dobráveis para celular em várias cores", illustrative: true, position: "generated" }], customizable: true, featured: false, whatsappMessage: "Olá! Gostaria de um orçamento para um suporte dobrável para celular." },
+{
+  "id": "luminaria-cubo",
+  "name": "Luminária cubo geométrico",
+  "category": "Decoração",
+  "description": "Referência de luminária com blocos geométricos e luz entre os relevos. Consulte opções e viabilidade pelo WhatsApp.",
+  "images": [
+    {
+      "src": "/images/products/luminaria-cubo-demonstrativo.webp",
+      "alt": "Imagem demonstrativa: Luminária cubo geométrico",
+      "illustrative": true,
+      "position": "generated"
+    }
+  ],
+  "customizable": true,
+  "featured": false,
+  "whatsappMessage": "Olá! Vi a referência Luminária cubo geométrico no site da SRX 3D e gostaria de consultar opções e orçamento."
+},
+{
+  "id": "luminaria-mesa",
+  "name": "Luminária de mesa",
+  "category": "Decoração",
+  "description": "Referência de luminária com linhas curvas para compor seu ambiente. Consulte opções e viabilidade pelo WhatsApp.",
+  "images": [
+    {
+      "src": "/images/products/luminaria-mesa-demonstrativo.webp",
+      "alt": "Imagem demonstrativa: Luminária de mesa",
+      "illustrative": true,
+      "position": "generated"
+    }
+  ],
+  "customizable": true,
+  "featured": false,
+  "whatsappMessage": "Olá! Vi a referência Luminária de mesa no site da SRX 3D e gostaria de consultar opções e orçamento."
+},
+{
+  "id": "luminaria-bonsai",
+  "name": "Bonsai decorativo iluminado",
+  "category": "Decoração",
+  "description": "Referência de árvore decorativa com base iluminada. Consulte opções e viabilidade pelo WhatsApp.",
+  "images": [
+    {
+      "src": "/images/products/luminaria-bonsai-demonstrativo.webp",
+      "alt": "Imagem demonstrativa: Bonsai decorativo iluminado",
+      "illustrative": true,
+      "position": "generated"
+    }
+  ],
+  "customizable": true,
+  "featured": false,
+  "whatsappMessage": "Olá! Vi a referência Bonsai decorativo iluminado no site da SRX 3D e gostaria de consultar opções e orçamento."
+},
+{
+  "id": "escultura-encontro",
+  "name": "Escultura Encontro",
+  "category": "Decoração",
+  "description": "Referência de escultura com dois rostos e formas delicadas. Consulte opções e viabilidade pelo WhatsApp.",
+  "images": [
+    {
+      "src": "/images/products/escultura-encontro-demonstrativo.webp",
+      "alt": "Imagem demonstrativa: Escultura Encontro",
+      "illustrative": true,
+      "position": "generated"
+    }
+  ],
+  "customizable": true,
+  "featured": false,
+  "whatsappMessage": "Olá! Vi a referência Escultura Encontro no site da SRX 3D e gostaria de consultar opções e orçamento."
+},
+{
+  "id": "escultura-lua",
+  "name": "Escultura Balanço na Lua",
+  "category": "Decoração",
+  "description": "Referência de escultura de uma figura em um balanço ligado à lua. Consulte opções e viabilidade pelo WhatsApp.",
+  "images": [
+    {
+      "src": "/images/products/escultura-lua-demonstrativo.webp",
+      "alt": "Imagem demonstrativa: Escultura Balanço na Lua",
+      "illustrative": true,
+      "position": "generated"
+    }
+  ],
+  "customizable": true,
+  "featured": false,
+  "whatsappMessage": "Olá! Vi a referência Escultura Balanço na Lua no site da SRX 3D e gostaria de consultar opções e orçamento."
+},
 ];
