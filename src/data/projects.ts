@@ -22,9 +22,7 @@ export const projects: Project[] = [
     name: "Organização de balcão",
     category: "Empresas",
     description: "Exemplo de aplicação de um porta-cartão para empresas.",
-    image: "/images/hero-products.webp",
-    alt: "Mockup de porta-cartão branco",
-    position: "card",
+    image: "/images/products/porta-cartao-catalogo.webp", alt: "Porta-cartão branco com figuras de gato e cachorro", position: "generated",
     example: true,
   },
   {
@@ -32,9 +30,7 @@ export const projects: Project[] = [
     name: "Um detalhe com sua identidade",
     category: "Personalizados",
     description: "Referência ilustrativa para personalizar um chaveiro.",
-    image: "/images/hero-products.webp",
-    alt: "Mockup de chaveiro laranja",
-    position: "key",
+    image: "/images/products/chaveiro-nfc-catalogo.webp", alt: "Chaveiros com Instagram e NFC", position: "generated",
     example: true,
   },
   {
@@ -53,9 +49,7 @@ export const projects: Project[] = [
     name: "Funcionalidade na mesa",
     category: "Funcionais",
     description: "Referência de suporte para organizar o uso do celular.",
-    image: "/images/hero-products.webp",
-    alt: "Mockup de suporte preto para celular",
-    position: "phone",
+    image: "/images/products/suporte-celular-catalogo.webp", alt: "Suporte ajustável para celular com engrenagens", position: "generated",
     example: true,
   },
 ];

@@ -137,10 +137,10 @@ export function Hero() {
         <div className="visual-space">
           <Image
             unoptimized
-            src="/images/hero-products.webp"
+            src="/images/catalogo-demonstrativo.webp"
             width={1536}
             height={1024}
-            alt="Mockup ilustrativo de vaso laranja, suporte para celular, porta-cartão e chaveiro com textura de impressão 3D"
+            alt="Demonstração de placas, chaveiro NFC, porta-cartão e suportes para celular em impressão 3D"
             fetchPriority="high"
           />
           <span className="visual-index">DA IDEIA À PEÇA PRONTA</span>

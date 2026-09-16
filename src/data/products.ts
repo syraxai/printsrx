@@ -40,7 +40,7 @@ export const products: Product[] = [
     category: "Para empresas",
     description:
       "Facilite o acesso ao cardápio, às redes sociais ou à avaliação no Google.",
-    images: [{ src: "/images/products/placa-qr-illustrative.webp", alt: "Mockup ilustrativo: Placa QR Code preta com base laranja", illustrative: true, position: "generated" }],
+    images: [{ src: "/images/products/placa-qr-catalogo.webp", alt: "Placa de cardápio com QR Code preta e branca", illustrative: true, position: "generated" }],
     customizable: true,
     featured: true,
     whatsappMessage:
@@ -69,7 +69,7 @@ export const products: Product[] = [
     category: "Personalizados",
     description:
       "Um chaveiro com NFC para compartilhar um link por aproximação em celulares compatíveis.",
-    images: [{ src: "/images/products/chaveiro-nfc-illustrative.webp", alt: "Mockup ilustrativo: Chaveiro NFC preto e laranja", illustrative: true, position: "generated" }],
+    images: [{ src: "/images/products/chaveiro-nfc-catalogo.webp", alt: "Chaveiros laranja com símbolos de Instagram e NFC", illustrative: true, position: "generated" }],
     customizable: true,
     featured: true,
     whatsappMessage:
@@ -81,7 +81,7 @@ export const products: Product[] = [
     category: "Para empresas",
     description:
       "Organize seus cartões de visita e valorize a apresentação do seu balcão.",
-    images: [mockup("Mockup ilustrativo de porta-cartão branco", "card")],
+    images: [{ src: "/images/products/porta-cartao-catalogo.webp", alt: "Porta-cartão branco com figuras de gato e cachorro", illustrative: true, position: "generated" }],
     customizable: true,
     featured: true,
     whatsappMessage:
@@ -104,7 +104,7 @@ export const products: Product[] = [
     name: "Plaquinha de mesa",
     category: "Personalizados",
     description: "Identificação para sua mesa, recepção ou espaço de trabalho.",
-    images: [{ src: "/images/products/plaquinha-illustrative.webp", alt: "Mockup ilustrativo: Plaquinha de mesa personalizada com texto Seu Nome", illustrative: true, position: "generated" }],
+    images: [{ src: "/images/products/plaquinha-catalogo.webp", alt: "Plaquinha de mesa marrom com detalhes dourados", illustrative: true, position: "generated" }],
     customizable: true,
     featured: false,
     whatsappMessage:
@@ -116,9 +116,7 @@ export const products: Product[] = [
     category: "Funcionais",
     description:
       "Uma peça prática para apoiar seu celular na mesa e organizar sua rotina.",
-    images: [
-      mockup("Mockup ilustrativo de suporte preto para celular", "phone"),
-    ],
+    images: [{ src: "/images/products/suporte-celular-catalogo.webp", alt: "Suporte para celular com engrenagens e ajuste de inclinação", illustrative: true, position: "generated" }],
     customizable: true,
     featured: false,
     whatsappMessage:
@@ -148,5 +146,6 @@ export const products: Product[] = [
     whatsappMessage:
       "Olá! Tenho uma ideia/projeto e gostaria de verificar se é possível produzir em impressão 3D.",
   },
-];
 
+  { id: "suporte-dobravel", name: "Suporte dobrável para celular", category: "Funcionais", description: "Um apoio compacto para o celular, com opção de chaveiro para levar com você.", images: [{ src: "/images/products/suporte-dobravel-catalogo.webp", alt: "Suportes dobráveis para celular em várias cores", illustrative: true, position: "generated" }], customizable: true, featured: false, whatsappMessage: "Olá! Gostaria de um orçamento para um suporte dobrável para celular." },
+];

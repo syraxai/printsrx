@@ -182,7 +182,7 @@ export function ProductPhoto({
         loading="lazy"
       />
       {image.illustrative && (
-        <span className="image-badge">Mockup ilustrativo</span>
+        <span className="image-badge">Imagem demonstrativa</span>
       )}
     </div>
   );
