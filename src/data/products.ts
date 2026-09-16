@@ -28,7 +28,7 @@ export const products: Product[] = [
     category: "Para empresas",
     description:
       "Sua chave Pix em uma placa para o balcão, com a identidade do seu negócio.",
-    images: [],
+    images: [{src: "/images/products/placa-pix-real.webp", alt: "Placa Pix PRINTSRX preta e amarela com QR Codes de WhatsApp, Pix e Instagram", illustrative: false, position: "pix"}],
     customizable: true,
     featured: true,
     whatsappMessage:
@@ -40,7 +40,7 @@ export const products: Product[] = [
     category: "Para empresas",
     description:
       "Facilite o acesso ao cardápio, às redes sociais ou à avaliação no Google.",
-    images: [],
+    images: [{ src: "/images/products/placa-qr-illustrative.webp", alt: "Mockup ilustrativo: Placa QR Code preta com base laranja", illustrative: true, position: "generated" }],
     customizable: true,
     featured: true,
     whatsappMessage:
@@ -69,7 +69,7 @@ export const products: Product[] = [
     category: "Personalizados",
     description:
       "Um chaveiro com NFC para compartilhar um link por aproximação em celulares compatíveis.",
-    images: [],
+    images: [{ src: "/images/products/chaveiro-nfc-illustrative.webp", alt: "Mockup ilustrativo: Chaveiro NFC preto e laranja", illustrative: true, position: "generated" }],
     customizable: true,
     featured: true,
     whatsappMessage:
@@ -93,7 +93,7 @@ export const products: Product[] = [
     category: "Para empresas",
     description:
       "Destaque informações e preços dos seus produtos com um display sob medida.",
-    images: [],
+    images: [{ src: "/images/products/display-illustrative.webp", alt: "Mockup ilustrativo: Display preto e laranja com cartão em branco", illustrative: true, position: "generated" }],
     customizable: true,
     featured: true,
     whatsappMessage:
@@ -104,7 +104,7 @@ export const products: Product[] = [
     name: "Plaquinha de mesa",
     category: "Personalizados",
     description: "Identificação para sua mesa, recepção ou espaço de trabalho.",
-    images: [],
+    images: [{ src: "/images/products/plaquinha-illustrative.webp", alt: "Mockup ilustrativo: Plaquinha de mesa personalizada com texto Seu Nome", illustrative: true, position: "generated" }],
     customizable: true,
     featured: false,
     whatsappMessage:
@@ -130,7 +130,7 @@ export const products: Product[] = [
     category: "Decoração",
     description:
       "Dê uma forma especial às suas memórias, com detalhes escolhidos por você.",
-    images: [],
+    images: [{ src: "/images/products/porta-retrato-illustrative.webp", alt: "Mockup ilustrativo: Porta-retrato preto e laranja", illustrative: true, position: "generated" }],
     customizable: true,
     featured: false,
     whatsappMessage:
@@ -142,10 +142,11 @@ export const products: Product[] = [
     category: "Sob medida",
     description:
       "Envie sua ideia, medidas ou referência para avaliarmos uma solução específica.",
-    images: [],
+    images: [{ src: "/images/products/sob-medida-illustrative.webp", alt: "Mockup ilustrativo: Exemplos de peças funcionais sob medida", illustrative: true, position: "generated" }],
     customizable: true,
     featured: false,
     whatsappMessage:
       "Olá! Tenho uma ideia/projeto e gostaria de verificar se é possível produzir em impressão 3D.",
   },
 ];
+

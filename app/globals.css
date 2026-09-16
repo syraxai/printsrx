@@ -1429,3 +1429,5 @@ h2 em {
   max-height: calc(100svh - 76px);
   overflow-y: auto;
 }
+.image-frame.crop-pix img { object-fit: cover; object-position: 50% 55%; }
+.image-frame.crop-generated img { object-fit: contain; padding: 0; background: #242526; }
