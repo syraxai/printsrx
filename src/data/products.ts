@@ -116,7 +116,7 @@ export const products: Product[] = [
     category: "Decoração",
     description:
       "Dê uma forma especial às suas memórias, com detalhes escolhidos por você.",
-    images: [{ src: "/images/products/porta-retrato-illustrative.webp", alt: "Mockup ilustrativo: Porta-retrato preto e laranja", illustrative: true, position: "generated" }],
+    images: [{ src: "/images/products/porta-retrato-aprimorado.webp", alt: "Imagem aprimorada de porta-retratos brancos personalizados com nomes em rosa e figuras douradas", illustrative: true, position: "generated" }],
     customizable: true,
     featured: false,
     whatsappMessage:
