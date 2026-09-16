@@ -1,6 +1,6 @@
 # SRX 3D
 
-Site institucional e catálogo em português, com orçamento por WhatsApp. Next.js App Router, TypeScript e Tailwind CSS, executado pelo adaptador Vinext para publicação em Sites. Sem checkout, backend ou painel administrativo.
+Site institucional e catálogo em português, com orçamento por WhatsApp. Next.js App Router, TypeScript e Tailwind CSS, com build nativo do Next.js para publicação na Netlify. A prévia local usa Vinext. Sem checkout, backend ou painel administrativo.
 
 ## Executar
 
@@ -41,7 +41,7 @@ npm run typecheck
 npm run build
 ```
 
-O script de build usa Vinext e produz a saída para Cloudflare. A publicação Sites usa a identidade registrada em `.openai/hosting.json`; não crie outro site para atualizar este. Para hospedar em um provedor Next.js diferente, utilize o build nativo do Next conforme as instruções do provedor.
+O script de build usa `next build` e produz a pasta `.next`, esperada pelo adaptador Next.js da Netlify. O arquivo `netlify.toml` define o comando `npm run build`, a pasta de publicação `.next` e Node.js 22. Conecte o repositório `syraxai/printsrx`, branch `main`, na Netlify. Novos commits acionam a publicação automática quando essa opção está habilitada. Para verificar a produção localmente após o build, execute `npm start`.
 
 ## Dados que faltam
 
