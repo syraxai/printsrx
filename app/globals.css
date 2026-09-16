@@ -1431,3 +1431,9 @@ h2 em {
 }
 .image-frame.crop-pix img { object-fit: cover; object-position: 50% 55%; }
 .image-frame.crop-generated img { object-fit: contain; padding: 0; background: #242526; }
+
+.pix-hero .visual-space { background: #242526; }
+.pix-hero .visual-space img { width: 100%; height: 520px; object-fit: contain; }
+.pix-hero .hero-actions { flex-wrap: wrap; }
+.pix-hero .button-shopee { background: #ee4d2d; color: #fff; }
+@media (max-width: 700px) { .pix-hero .visual-space img { height: 420px; } }

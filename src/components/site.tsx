@@ -103,30 +103,27 @@ export function Header() {
 }
 export function Hero() {
   return (
-    <section className="hero container">
+    <section className="hero container pix-hero">
       <div className="hero-copy">
         <p className="eyebrow">
           <span />
-          IMPRESSÃO 3D · PERSONALIZAÇÃO · SOLUÇÕES
+          EM DESTAQUE · PLACA PIX PERSONALIZADA
         </p>
         <h1>
-          Transformamos
+          Seu negócio,
           <br />
-          ideias em <em>peças reais.</em>
+          pronto para <em>receber com Pix.</em>
         </h1>
         <h2>
-          Impressão 3D personalizada para pessoas, empresas e projetos sob
-          medida.
+          Pix e redes sociais em uma placa com a identidade do seu negócio.
         </h2>
         <p>
-          Da ideia à peça pronta, desenvolvemos soluções para decoração,
-          presentes, negócios, organização e necessidades específicas.
+          Dê destaque ao seu balcão com uma placa personalizada em impressão 3D. Compre pela Shopee ou fale conosco pelo WhatsApp para escolher os detalhes.
         </p>
         <div className="hero-actions">
-          <QuoteLink />
-          <a className="text-link" href="#projetos">
-            Conhecer nossos trabalhos <ArrowUpRight size={17} />
-          </a>
+          <QuoteLink message="Olá! Vi a Placa Pix em destaque no site da SRX 3D e quero comprar uma placa personalizada. Pode me informar as opções e o valor?">Pedir pelo WhatsApp</QuoteLink>
+          <a className="button button-shopee" href="https://shopee.com.br/product/323780327/23699675983/" target="_blank" rel="noopener noreferrer">Comprar na Shopee <ArrowUpRight size={17} /></a>
+          <a className="text-link" href="#produtos">Ver catálogo completo <ArrowUpRight size={17} /></a>
         </div>
         <div className="hero-note">
           <MessageCircle size={17} />
@@ -137,16 +134,16 @@ export function Hero() {
         <div className="visual-space">
           <Image
             unoptimized
-            src="/images/catalogo-demonstrativo.webp"
-            width={1536}
-            height={1024}
-            alt="Demonstração de placas, chaveiro NFC, porta-cartão e suportes para celular em impressão 3D"
+            src="/images/products/placa-pix-real.webp"
+            width={941}
+            height={1672}
+            alt="Placa Pix PRINTSRX preta e amarela com QR Codes de Pix, WhatsApp e Instagram"
             fetchPriority="high"
           />
-          <span className="visual-index">DA IDEIA À PEÇA PRONTA</span>
+          <span className="visual-index">PERSONALIZADA PARA O SEU NEGÓCIO</span>
         </div>
         <figcaption>
-          Mockup ilustrativo · Não representa trabalhos realizados.
+          Foto do produto · Personalização sob consulta.
         </figcaption>
       </figure>
     </section>
