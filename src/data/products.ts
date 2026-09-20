@@ -14,8 +14,23 @@ export type Product = {
   customizable: boolean;
   featured: boolean;
   whatsappMessage: string;
+  purchaseUrl?: string;
 };
 export const products: Product[] = [
+  {
+    id: "expositor-nfc-modular",
+    name: "Expositor NFC personalizado com módulos intercambiáveis",
+    category: "Para empresas",
+    description:
+      "Expositor personalizado para balcão com módulos intercambiáveis e NFC, ideal para compartilhar Pix, Wi‑Fi, WhatsApp, redes sociais e outros links por aproximação.",
+    images: [{ src: "https://down-br.img.susercontent.com/file/br-11134207-820l9-mtadr7a9ujnm89", alt: "Expositor NFC personalizado com módulos intercambiáveis da SRX 3D", illustrative: false, position: "generated" }],
+    startingPrice: 59.9,
+    customizable: true,
+    featured: true,
+    whatsappMessage:
+      "Olá! Vi o Expositor NFC personalizado com módulos intercambiáveis no site da SRX 3D e gostaria de saber mais.",
+    purchaseUrl: "https://shopee.com.br/product/323780327/58218453623/",
+  },
   {
     id: "placa-pix",
     name: "Placa Pix personalizada",
