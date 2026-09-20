@@ -215,13 +215,25 @@ export function ProductCard({
               ? `A partir de ${new Intl.NumberFormat("pt-BR", { style: "currency", currency: "BRL" }).format(product.startingPrice)}`
               : "Consulte orçamento"}
           </span>
-          <QuoteLink
-            className="product-quote"
-            message={product.whatsappMessage}
-          >
-            Pedir orçamento<span className="sr-only">: </span>
-            <span className="sr-only">{product.name} pelo WhatsApp</span>
-          </QuoteLink>
+          {product.purchaseUrl ? (
+            <a
+              className="product-quote"
+              href={product.purchaseUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Comprar na Shopee
+              <span className="sr-only">: {product.name}</span>
+            </a>
+          ) : (
+            <QuoteLink
+              className="product-quote"
+              message={product.whatsappMessage}
+            >
+              Pedir orçamento<span className="sr-only">: </span>
+              <span className="sr-only">{product.name} pelo WhatsApp</span>
+            </QuoteLink>
+          )}
         </div>
       </div>
     </article>
